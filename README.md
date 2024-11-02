@@ -27,17 +27,16 @@ This project automates the stopping and starting of AWS EC2 instances using AWS 
 1. Go to the IAM Console.
 2. Create a new role for Lambda with the following policy:
 
-   ```json
-   {
-       "Version": "2012-10-17",
-       "Statement": [
-           {
-               "Effect": "Allow",
-               "Action": [
-                   "ec2:StopInstances",
-                   "ec2:StartInstances"
-               ],
-               "Resource": "*"
-           }
-       ]
-   }
+### Step 2: Create Lambda Functions
+StopEC2Instances
+Go to the Lambda Console.
+
+Create a new Lambda function named StopEC2Instances.
+
+
+### Step 3:StartEC2Instances
+Create another Lambda function named StartEC2Instances.
+
+
+
+### STEP 4 :Adjust the cron expressions based on your desired scheduling.
