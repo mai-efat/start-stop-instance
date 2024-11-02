@@ -34,9 +34,9 @@ Go to the Lambda Console.
 Create a new Lambda function named StopEC2Instances.
 
 
-### Step 3:StartEC2Instances
+### Step 3: StartEC2Instances
 Create another Lambda function named StartEC2Instances.
 
 
 
-### STEP 4:Adjust the cron expressions based on your desired scheduling.
+### STEP 4: Adjust the cron expressions based on your desired scheduling.
