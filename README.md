@@ -39,4 +39,4 @@ Create another Lambda function named StartEC2Instances.
 
 
 
-### STEP 4 :Adjust the cron expressions based on your desired scheduling.
+### STEP 4:Adjust the cron expressions based on your desired scheduling.
